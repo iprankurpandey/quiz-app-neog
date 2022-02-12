@@ -1,0 +1,213 @@
+@import url('https://agri-component.netlify.app/css/components.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-quiz-image {
+    height: 19rem;
+    max-width: 100%;
+    width: 25rem;
+}
+
+.text-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    color: tomato;
+}
+
+.head-text {
+    font-size: 1rem;
+    color: rgb(248, 63, 63);
+    font-weight: bold;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.mtext {
+    font-size: 3rem;
+    color: rgb(99, 98, 96);
+    font-weight: 600;
+}
+
+.logo-text {
+    font-size: 2rem;
+    color: rgb(247, 2, 96);
+    font-weight: 500;
+}
+
+.subtext-image {
+    font-size: 1.5rem;
+    color: rgb(248, 2, 166);
+    font-weight: 400;
+}
+
+.text-in-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.featured-catagories {
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+
+}
+
+.catagory-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3rem;
+    color: rgb(228, 243, 12);
+    opacity: 0.8;
+}
+
+
+.play-btn-quiz {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: purple;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.first-catagory {
+    background-image: url('https://i.ibb.co/1dBQLR5/scorpio1.jpg');
+
+}
+
+.second-catagory {
+    background-image: url('https://i.ibb.co/HYftvqq/politics.jpg');
+}
+
+.third-catagory {
+    background-image: url('https://i.ibb.co/B2j29Zj/itquiz.jpg');
+}
+
+.fourth-catagory {
+    background-image: url('https://i.ibb.co/9gq6Xhg/farming.jpg');
+}
+
+.box {
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+    /* font-style: italic; */
+}
+
+.brand-choice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.featured-brands {
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+.brand-logo {
+    width: 20rem;
+    min-height: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    max-height: auto;
+    max-width: 100%;
+
+}
+
+.img-conatiner {
+    height: 8rem;
+    width: 8rem;
+}
+
+.brand-about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+/* footer */
+
+.footer-items {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: silver;
+    max-width: 100%;
+    padding: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    background-color: silver;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.fa {
+    margin: 0.5rem;
+}
+
+.search-panel {
+    display: flex;
+}
+
+.mtrlshop {
+    font-size: 2rem;
+}
