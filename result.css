@@ -1,0 +1,164 @@
+@import url('https://agri-component.netlify.app/css/components.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.featured-catagories {
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+
+}
+
+.catagory-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3rem;
+    color: rgb(228, 243, 12);
+    opacity: 0.8;
+}
+
+.head-text{
+
+    font-size: 1rem;  
+}
+
+.play-btn-quiz {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: purple;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.brand-choice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+
+
+.first-brand{
+    display: flex;
+    height: 15rem;
+    width: 100%
+}
+
+.brand-logo {
+    width: 25rem;
+    /* min-height: 25rem; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    height: auto;
+
+}
+.username,.score-text{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(245, 76, 76);
+}
+
+.score-container{
+    height: 3rem;
+    width: fit-content;
+    background-color: silver;
+}
+.text-head-questions{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: orange;
+    height: fit-content;
+}
+.btn{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    color: red;
+}
+.brand-about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+/* footer */
+
+.footer-items {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background-color: silver;
+    max-width: 100%;
+    padding: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    background-color: silver;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.fa {
+    margin: 0.5rem;
+}
+.option-btn-right{
+    background-color: green;
+    color: white;
+}
+.score-container{
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+}
+.search-panel {
+    display: flex;
+}
+
+.mtrlshop {
+    font-size: 2rem;
+}
+.questions{
+    font-size: 0.8rem;
+    background-color: rgba(255, 0, 0, 0.521);
+    height: 1.2rem;
+    width: 5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+
+}
