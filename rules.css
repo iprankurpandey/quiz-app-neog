@@ -182,3 +182,12 @@
 .mtrlshop {
     font-size: 2rem;
 }
+.questions{
+    font-size: 0.8rem;
+    background-color: rgba(255, 0, 0, 0.521);
+    height: 1.2rem;
+    width: 5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+
+}
