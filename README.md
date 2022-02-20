@@ -1,4 +1,4 @@
-# Agri-Quiz App [![wakatime](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485.svg)](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485)
+# Agri-Quiz App [![wakatime](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/ad4227d2-ff96-4f92-a38a-3749e7d5a349.svg)](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/ad4227d2-ff96-4f92-a38a-3749e7d5a349)
 
 Agri Quiz App is all in one place to play games based on quiz format and enance your knowledge.
 Live Hosted Link - **[Agri Quiz App](https://agri-quiz.netlify.app/)**
