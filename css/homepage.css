@@ -27,32 +27,32 @@
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
-    color: tomato;
+    color: var(--tomato-color);
     width: 30rem;
 }
 
 .head-text {
     font-size: 1rem;
-    color: rgb(248, 63, 63);
+    color: var(--button-danger-color);
     font-weight: bold;
     margin: 0.5rem 0 0.5rem 0;
 }
 
 .mtext {
     font-size: 3rem;
-    color: rgb(99, 98, 96);
+    color: var(--universal-border-color);
     font-weight: 600;
 }
 
 .logo-text {
     font-size: 2rem;
-    color: rgb(247, 2, 96);
+    color: var(--pink-color);
     font-weight: 500;
 }
 
 .subtext-image {
     font-size: 1.5rem;
-    color: rgb(248, 2, 166);
+    color: var(--violet-color);
     font-weight: 400;
 }
 
@@ -68,8 +68,7 @@
     text-align: center;
     margin: 3rem;
     text-decoration: underline;
-    text-decoration-color: goldenrod;
-
+    text-decoration-color: var(--golden-color);
 }
 
 .catagory-choice {
@@ -78,7 +77,7 @@
     align-items: center;
     flex-direction: row;
     margin: 3rem;
-    color: rgb(228, 243, 12);
+    color: var(--button-warning-color);
     opacity: 0.8;
 }
 
@@ -87,8 +86,8 @@
     width: 5rem;
     height: 2rem;
     border-radius: 0.5rem;
-    color: white;
-    background-color: purple;
+    color: var(--background-universal-color);
+    background-color: var(--purple-color);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     margin: 1rem;
     cursor: pointer;
@@ -116,7 +115,7 @@
 .box {
     width: 15rem;
     height: 15rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--button-font-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -126,7 +125,6 @@
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
     font-weight: bold;
     cursor: pointer;
-    /* font-style: italic; */
 }
 
 .brand-choice {
@@ -141,13 +139,13 @@
     text-align: center;
     margin: 3rem;
     text-decoration: underline;
-    text-decoration-color: goldenrod;
+    text-decoration-color: var(--golden-color);
 }
 
 .brand-logo {
     width: 20rem;
     min-height: 15rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--button-font-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -156,7 +154,7 @@
     margin: 1rem;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: var(--dark-black-color);
     max-height: auto;
     max-width: 100%;
 
@@ -174,17 +172,14 @@
     flex-direction: column;
 }
 
-
-
 /* footer */
 
 .footer-items {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     height: auto;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     padding: 1rem;
     left: 0;
@@ -198,7 +193,7 @@
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     font-size: 1.5rem;
 }
@@ -214,6 +209,7 @@
 .mtrlshop {
     font-size: 2rem;
 }
+
 .right-side-panel {
     display: flex;
     justify-content: center;

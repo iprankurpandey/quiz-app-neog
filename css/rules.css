@@ -17,18 +17,17 @@
 .text-button {
     padding: 1rem;
     margin: 1rem;
-    color: tomato;
+    color: var(--tomato-color);
 }
-
 
 .accordian-text {
     padding: 0.5rem;
     margin: 0.5rem;
-    color: rgb(241, 25, 61);
+    color: var(--danger-alert-icon-color);
     height: 2.5rem;
     width: fit-content;
     max-width: 100%;
-    background-color: silver;
+    background-color: var(--silver-color);
     border-radius: 0.3rem;
     align-items: center;
 }
@@ -36,11 +35,11 @@
 .summary-head {
     padding: 0.2rem;
     margin: 0.2rem;
-    color: rgb(137, 25, 241);
+    color: var(--primary-alert-icon-color);
     /* height: 2.5rem; */
     width: fit-content;
     max-width: 100%;
-    background-color: silver;
+    background-color: var(--silver-color);
     border-radius: 0.3rem;
     align-items: center;
     font-weight: 500;
@@ -48,18 +47,17 @@
 
 .head-text {
     font-size: 1rem;
-    color: rgb(248, 63, 63);
+    color: var(--shopping-card-button-bgcolor);
     font-weight: bold;
     margin: 0.5rem 0 0.5rem 0;
 }
-
 
 .featured-catagories {
     font-weight: 800;
     text-align: center;
     margin: 3rem;
     text-decoration: underline;
-    text-decoration-color: goldenrod;
+    text-decoration-color: var(--golden-color);
 
 }
 
@@ -69,29 +67,26 @@
     align-items: center;
     flex-direction: row;
     margin: 3rem;
-    color: rgb(228, 243, 12);
+    color: var(--badge-away-color);
     opacity: 0.8;
 }
-
 
 .play-btn-quiz {
     width: 5rem;
     height: 2rem;
     border-radius: 0.5rem;
-    color: white;
-    background-color: purple;
+    color: var(--background-universal-color);
+    background-color: var(--purple-color);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     margin: 1rem;
     cursor: pointer;
     font-weight: bold;
 }
 
-
-
 .box {
     width: 15rem;
     height: 15rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-universal-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -110,12 +105,10 @@
 
 }
 
-
-
 .brand-logo {
     width: 20rem;
     min-height: 15rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-universal-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -124,7 +117,7 @@
     margin: 1rem;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: var(--dark-black-color);
     max-height: auto;
     max-width: 100%;
 
@@ -142,17 +135,13 @@
     flex-direction: column;
 }
 
-
-
 /* footer */
-
 .footer-items {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     height: auto;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     padding: 1rem;
     left: 0;
@@ -166,7 +155,7 @@
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     font-size: 1.5rem;
 }
@@ -182,15 +171,16 @@
 .mtrlshop {
     font-size: 2rem;
 }
-.questions{
+
+.questions {
     font-size: 0.8rem;
-    background-color: rgba(255, 0, 0, 0.521);
+    background-color: var(--button-danger-color);
     height: 1.2rem;
     width: 5rem;
     border-radius: 0.3rem;
     text-align: center;
-
 }
+
 .right-side-panel {
     display: flex;
     align-items: center;
