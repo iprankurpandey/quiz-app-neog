@@ -8,14 +8,16 @@
 .main-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 1rem;
 }
 
 .hero-quiz-image {
     height: 19rem;
     max-width: 100%;
-    width: 25rem;
+    width: 30rem;
+
 }
 
 .text-button {
@@ -26,6 +28,7 @@
     padding: 1rem;
     margin: 1rem;
     color: tomato;
+    width: 30rem;
 }
 
 .head-text {
@@ -210,4 +213,10 @@
 
 .mtrlshop {
     font-size: 2rem;
+}
+.right-side-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
 }
