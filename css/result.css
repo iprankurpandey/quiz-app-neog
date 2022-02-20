@@ -25,9 +25,9 @@
     opacity: 0.8;
 }
 
-.head-text{
+.head-text {
 
-    font-size: 1rem;  
+    font-size: 1rem;
 }
 
 .play-btn-quiz {
@@ -49,7 +49,7 @@
 }
 
 
-.first-brand{
+.first-brand {
     display: flex;
     height: 15rem;
     width: 100%
@@ -73,18 +73,21 @@
     height: auto;
 
 }
-.username,.score-text{
+
+.username,
+.score-text {
     font-size: 1rem;
     font-weight: bold;
     color: rgb(245, 76, 76);
 }
 
-.score-container{
+.score-container {
     height: 3rem;
     width: fit-content;
     background-color: silver;
 }
-.text-head-questions{
+
+.text-head-questions {
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
@@ -92,12 +95,14 @@
     background-color: orange;
     height: fit-content;
 }
-.btn{
+
+.btn {
     height: 2rem;
     width: 15rem;
     border-radius: 0.5rem;
     color: red;
 }
+
 .brand-about {
     display: flex;
     justify-content: flex-start;
@@ -138,13 +143,16 @@
 .fa {
     margin: 0.5rem;
 }
-.option-btn-right{
+
+.option-btn-right {
     background-color: green;
     color: white;
 }
-.score-container{
-    /* margin: 1rem; */
-    /* padding: 1rem; */
+
+
+.option-btn-chose {
+    background-color: red;
+    color: white;
 }
 .search-panel {
     display: flex;
@@ -153,7 +161,8 @@
 .mtrlshop {
     font-size: 2rem;
 }
-.questions{
+
+.questions {
     font-size: 0.8rem;
     background-color: rgba(255, 0, 0, 0.521);
     height: 1.2rem;
@@ -161,4 +170,23 @@
     border-radius: 0.3rem;
     text-align: center;
 
+}
+
+.btnp {
+    height: 2rem;
+    width: 7rem;
+}
+.right-side-panel {
+    display: flex;
+    align-items: center;
+}
+
+.green-answer{
+    background-color: green;
+    color: white;
+}
+
+.selected-answer{
+    background-color: red;
+    color: white;
 }
