@@ -150,3 +150,13 @@
     text-align: center;
 
 }
+
+.btnp {
+    height: 2rem;
+    width: 7rem;
+}
+
+.right-side-panel {
+    display: flex;
+    align-items: center;
+}

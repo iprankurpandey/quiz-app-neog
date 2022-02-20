@@ -5,54 +5,6 @@
     padding: 0;
 }
 
-.main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.text-button {
-    padding: 1rem;
-    margin: 1rem;
-    color: tomato;
-}
-
-
-.accordian-text {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    color: rgb(241, 25, 61);
-    height: 2.5rem;
-    width: fit-content;
-    max-width: 100%;
-    background-color: silver;
-    border-radius: 0.3rem;
-    align-items: center;
-}
-
-.summary-head {
-    padding: 0.2rem;
-    margin: 0.2rem;
-    color: rgb(137, 25, 241);
-    /* height: 2.5rem; */
-    width: fit-content;
-    max-width: 100%;
-    background-color: silver;
-    border-radius: 0.3rem;
-    align-items: center;
-    font-weight: 500;
-}
-
-.head-text {
-    font-size: 1rem;
-    color: rgb(248, 63, 63);
-    font-weight: bold;
-    margin: 0.5rem 0 0.5rem 0;
-}
-
 
 .featured-catagories {
     font-weight: 800;
@@ -73,6 +25,10 @@
     opacity: 0.8;
 }
 
+.head-text{
+
+    font-size: 1rem;  
+}
 
 .play-btn-quiz {
     width: 5rem;
@@ -86,63 +42,60 @@
     font-weight: bold;
 }
 
-
-
-.box {
-    width: 15rem;
-    height: 15rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 1rem;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .brand-choice {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-
 }
 
 
+.first-brand{
+    display: flex;
+    height: 15rem;
+    width: 100%
+}
 
 .brand-logo {
-    width: 20rem;
-    min-height: 15rem;
+    width: 25rem;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
-    margin: 1rem;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    margin: 3rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
     font-weight: bold;
     color: rgb(0, 0, 0);
-    max-height: auto;
     max-width: 100%;
+    height: auto;
 
 }
 
-.img-conatiner {
-    height: 8rem;
-    width: 8rem;
-}
 
+.text-head-questions{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: orange;
+    height: fit-content;
+}
+.btn{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    color: red;
+}
 .brand-about {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 1rem;
+    padding: 1rem;
     flex-direction: column;
 }
-
-
 
 /* footer */
 
@@ -157,7 +110,8 @@
     padding: 1rem;
     left: 0;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    position: relative;
 }
 
 .social-media-links {
@@ -191,7 +145,39 @@
     text-align: center;
 
 }
+
+.btnp {
+    height: 2rem;
+    width: 7rem;
+}
+
 .right-side-panel {
     display: flex;
     align-items: center;
+}
+
+
+    .button-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        justify-content: center;
+        
+    }
+
+footer{
+    height: 5rem;
+}
+.previous-question,.next-question{
+ 
+    margin: 1rem 9rem 0 9rem;
+
+    display: flex;
+    height: 2rem;
+    width: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.3rem;
+    background-color: green;
+    cursor:pointer;
 }
