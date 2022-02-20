@@ -28,7 +28,3 @@ Live Hosted Link - **[Agri Quiz App](https://agri-quiz.netlify.app/)**
 ![](https://github.com/iprankurpandey/quiz-app-neog/blob/dev/images/Screenshot%20from%202022-02-20%2015-34-04.png)
 
 ![](https://github.com/iprankurpandey/quiz-app-neog/blob/dev/images/Screenshot%20from%202022-02-20%2015-34-15.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283880384.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
